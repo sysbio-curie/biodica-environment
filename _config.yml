@@ -1,0 +1,63 @@
+# Site settings
+title: BIODICA
+email: your-email@domain.com
+description: >
+  Website presenting BIODICA, an integrated computational environment for application of 
+  Independent Component Analysis (ICA) to the bulk and single molecular profiles,
+  interpretation of the results in terms of biological functions and associations with metadata.
+lang: en-US
+
+baseurl: "/biodica-environment" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+git_address: https://github.com/LabBandSB/BIODICA
+
+# theme options from https://bootswatch.com/3/
+# comment out this to use default Bootstrap
+bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+# Plugins (previously gems:)
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+  - vendor
+
+timezone: Europe/Berlin
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: news
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    sectionid: docs
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /news/:year/:month/:day/:title/
+    output: true
+  install:
+    permalink: /:collection/:path/
+    output: true

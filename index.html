@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="header-container jumbotron">
+    <div class="container">
+        <h1>BIODICA</h1>
+        <p>An integrated computational environment for application of Independent Component Analysis (ICA) to the bulk and single cell molecular profiles, interpretation of the results 
+        in terms of biological functions and associations with metadata.</p>
+        <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | relative_url }}" role="button">Learn more</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="header-light regular-pad">What is BIODICA ?</h2>
+              <p class="lead"><a href="https://github.com/LabBandSB/BIODICA">BIODICA</a> is a computational environment designed for the application
+              of Independent Component Analysis (ICA) to large omics data sets and interpreting the results in a user-friendly manner. It provides a rich set
+              of tools to visualize the results, interpret them using prior knowledge and sample annotations, and perform meta-analyses with several data sets.
+              It comes with the python package <a href="https://stabilized-ica.readthedocs.io/en/latest/">stabilized-ica</a> which provides several ICA algorithms,
+              a stabilization procedure to extract reliable and reproducible components, as well as python implementations of several analysis tools proposed by BIODICA.
+              BIODICA is also equipped with a user-friendly graphical user interface allowing non-experienced users to perform the ICA-based analysis on their own transcriptomic data sets.
+              </p>
+        </div>
+        <div class="col-md-6 text-center">
+            <center><img src="{{ "/assets/img/biodica_logo.png" | relative_url }}" width="450" height="auto" class="img-responsive" style="vertical-align:middle; margin-top:100px; margin-left:75px"></center>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="text-center">
+            <a class="btn btn-primary btn-lg" href="{{ "/install/" | relative_url }}" role="button">Install BIODICA</a>
+            <a class="btn btn-danger btn-lg" href="{{ "/docs/tutorials/" | relative_url }}" role="button" style="padding: 10px 35px; margin-left:100px">Tutorials</a>
+        </div>
+    </div>
+    <hr>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <center><img src = "assets/img/sica_logo.jpg" height="100" wide="auto"></center>
+            <p>stabilized-ica is the computational core of BIODICA. It can also work as a standalone python tool, facilitating the integration of the ICA-based analysis into
+            complex python pipelines which deal with transcriptomic data. It is available on <a href="https://pypi.org/project/stabilized-ica/">PyPI</a> and <a href="https://github.com/ncaptier/stabilized-ica">GitHub</a>.
+            <a href="https://stabilized-ica.readthedocs.io/en/latest/">Learn more...</a>
+            </p>
+        </div>
+        <div class="col-sm-6">
+            <center><img src = "assets/img/biodica_nav_logo.png" height="100" wide="auto"></center>
+            BIODICA Navigator is the graphical user interface of BIODICA. It allows the users to run BIODICA analyses without using command-line commands. It also provides
+            the results in interactive ways, facilitating communication with biology experts.
+            <a href="{{ "/docs/home/" | relative_url }}">Learn more...</a>
+            </p>
+        </div>
+    </div>
+</div>

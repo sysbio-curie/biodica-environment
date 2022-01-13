@@ -1,0 +1,52 @@
+---
+layout: default
+sectionid: install
+title: Install
+permalink: /install/
+redirect_from: /install/index.html
+---
+
+<div class="header" style="background-color: rgb(58, 149, 165); background-position: center 36%;
+margin-top: -37px; padding: 10px">
+    <h2 style="color: #fff">Install BIODICA</h2>
+</div>
+
+<br>
+<div class = "container" style="background-color:rgb(231, 74, 74); border-radius:25px;">
+    <div class="container" style="font-size:16px; color: rgb(255, 255, 255);">
+        <h4 style="color: #fff">Requirements</h4>
+        <ul>
+            <li style="margin: 10px 0;">Make sure that Java is installed on your computer.
+            <b>Java 1.8 or later version is required</b>. If not, please refer to <a href="https://java.com/en/download/help/download_options.html">this link</a> to download and install Java.</li>
+
+            <li style="margin: 10px 0;">Make sure that <a href="https://www.python.org/" >Python</a> is installed on your computer.
+            <b>Python 3.6 or later version is required</b>. You then need to make sure that <b>python</b> command can be run from the command line. 
+            </li>
+
+            <li style="margin: 10px 0;">Install the stabilized-ica python package and make sure it is accessible from the command line. You can refer to <a href="https://stabilized-ica.readthedocs.io/en/latest/Install.html">this link</a> for installing instructions.</li>
+        </ul>
+    </div>
+</div>
+<br>
+<div class="container" style = "font-size:16px">
+    <ol>
+        <li style="margin: 10px 0;">Download BIODICA and unzip it into a local folder.</li>
+
+            <p><center><a class="btn" href="https://github.com/LabBandSB/BIODICA/archive/refs/heads/master.zip" 
+                role="btn btn-primary btn-lg" style="background-color: green ; color: white; font-size: 16px"><i class="fa fa-download"></i> Download BIODICA</a></center></p>
+
+        <li style="margin: 10px 0;">Make sure that the name of the local folder does not contain spaces and hyphens, otherwise certain functions will not work. Do not use the default name "BIODICA-master"
+        which will be suggested after downloading the repository!
+        </li>
+    </ol>
+</div>
+<hr>
+
+<div class="container" style = "font-size:16px">
+    <p>Originally, BIODICA used a MATLAB implementation for ICA computations. Now the python implementation of stabilized-ica package is
+    used by default in BIODICA but MATLAB is still accessible with the following setup instructions...
+    </p>
+    <p><center><a class="btn" href="{{ "/install/install_matlab/" | relative_url }}" role="button" style="background-color: white ; color: black ; border: 1px solid black ; border-radius: 20px">More details for configuring MATLAB...</a></center></p>
+</div>
+
+
