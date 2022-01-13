@@ -44,17 +44,59 @@
 * Open **_docs/tutorials.html** and go to the `<div class="row">` section and add:   
 
 	```
-	<div class="responsive">
-		<div class="gallery">
-      	    		<div class="image">
-              			<a href="{{ "/docs/tutorials/file_name/" | relative_url }}">
-              			<img src="../../assets/img/your_image.png" class="img-responsive" alt="Cerulean"></a>
-			</div>
-			<div class="desc">
-				Brief description/brief title for your tutorial
-			</div>
-		</div>
+	<div class="responsive">   
+          <div class="gallery">   
+            <div class="image">
+              <a href="{{ "/docs/tutorials/file_name/" | relative_url }}">   
+              <img src="../../assets/img/your_image.png" class="img-responsive" alt="Cerulean"></a>   
+            </div>   
+            <div class="desc">   
+              Brief description/brief title for your tutorial   
+            </div>   
+          </div>
         </div>
 	```
 
 ### Add a new page to the docs section
+
+* Go to **_docs/** and create a new markdown file **file_name.md** or a new html file **file_name.html**.
+
+* Add the following header in your file:   
+
+	```
+	---
+	title:  your_title
+	permalink: /docs/file_name/
+	---
+	```
+
+* Following this header you can write any content that you like.   
+
+* Open **_data/docs.yml** and add your new page in the architecture. You have two options:   
+
+	* Add this file in an existing section
+
+		```
+		- title: Getting Started
+	  	 docs:
+	  	 - home
+	  	 - tutorials
+	  	 - references
+	  	 - related-projects
+	  	 **- file_name**
+		```
+
+	* Create a new section and add your page
+
+		```
+		- title: Getting Started
+	  	 docs:
+	  	 - home
+	  	 - tutorials
+	  	 - references
+	  	 - related-projects
+
+		**- title: New section title
+		 docs:
+		 - file_name**
+		```
