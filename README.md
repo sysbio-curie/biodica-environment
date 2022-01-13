@@ -3,7 +3,8 @@
 The BIODICA website has been created with <a href="https://jekyllrb.com/" >Jekyll</a>. For new users, we recommend <a href="https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB" >these basic tutorials</a> 
 to install and get started with Jekyll.   
 
-You can update the files of this repository and the website will be automatically generated. For new users, we recommend to install Jekyll and make local tests on their computer (i.e with a local copy of this repository) before updating this repository.
+You can update the files of this repository and the website will be automatically generated. For new users, we recommend to install Jekyll and make local tests on their computer (i.e with a local copy of this repository) before updating this repository.   
+
 In the following you find some basic instructions on how to update the BIODICA website and new posts, tutorials or pages.
 
 ### Add a new post to the news section   
