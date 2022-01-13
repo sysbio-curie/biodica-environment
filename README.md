@@ -1,5 +1,11 @@
 # Welcome to BIODICA website
 
+The BIODICA website has been created with <a href="https://jekyllrb.com/" >Jekyll</a>. For new users, we recommend <a href=https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB>these basic tutorials</a> 
+to install and get started with Jekyll.   
+
+You can update the files of this repository and the website will be automatically generated. For new users, we recommend to install Jekyll and make local tests on their computer (i.e with a local copy of this repository) before updating this repository.
+In the following you find some basic instructions on how to update the BIODICA website and new posts, tutorials or pages.
+
 ### Add a new post to the news section   
 
 * Go to the **_posts/** folder and create a new markdown file (.md) which will contain your new post. It shoud be entitled **year-month-day-name.md** (e.g 2022-01-04-welcome-to-biodica.md).
@@ -83,7 +89,7 @@
 	  	 - tutorials
 	  	 - references
 	  	 - related-projects
-	  	 **- file_name**
+	  	 - file_name
 		```
 
 	* Create a new section and add your page
@@ -96,7 +102,7 @@
 	  	 - references
 	  	 - related-projects
 
-		**- title: New section title
+		- title: New section title
 		 docs:
-		 - file_name**
+		 - file_name
 		```
