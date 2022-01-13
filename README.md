@@ -45,15 +45,15 @@
 
 	```
 	<div class="responsive">
-    	  <div class="gallery">
-      	    <div class="image">
-              <a href="{{ "/docs/tutorials/file_name/" | relative_url }}">
-              <img src="../../assets/img/your_image.png" class="img-responsive" alt="Cerulean"></a>
-            </div>
-            <div class="desc">
-              Brief description/brief title for your tutorial
-            </div>
-          </div>
+		<div class="gallery">
+      	    		<div class="image">
+              			<a href="{{ "/docs/tutorials/file_name/" | relative_url }}">
+              			<img src="../../assets/img/your_image.png" class="img-responsive" alt="Cerulean"></a>
+			</div>
+			<div class="desc">
+				Brief description/brief title for your tutorial
+			</div>
+		</div>
         </div>
 	```
 
