@@ -3,7 +3,8 @@ title: References
 permalink: /docs/references/
 ---
 
-### Seminal ICA articles
+### Seminal ICA articles   
+
 
 * Bell, A.J.; Sejnowski, T.J. An information-maximization approach to blind separation and blind deconvolution. Neural Comput. 1995, 7, 1129–1159. <a href="https://direct.mit.edu/neco/article-abstract/7/6/1129/5909/An-Information-Maximization-Approach-to-Blind?redirectedFrom=fulltext">Link</a>
 
@@ -13,7 +14,6 @@ permalink: /docs/references/
 
 * Himberg, J.; Hyvarinen, A. Icasso: Software for investigating the reliability of ICA estimates by clustering
 and visualization. In Proceedings of the 2003 IEEE XIII Workshop on Neural Networks for Signal Processing (IEEE Cat. No.03TH8718), Toulouse, France, 17–19 September 2003; pp. 259–268. <a href="https://ieeexplore.ieee.org/document/1318025">Link</a>
-
 
 
 ### First studies applying ICA to gene expression data analysis
@@ -74,7 +74,8 @@ and visualization. In Proceedings of the 2003 IEEE XIII Workshop on Neural Netwo
 
 
 
-* Krumsiek, J.; Suhre, K.; Illig, T.; Adamski, J.; Theis, F.J. Bayesian Independent Component Analysis Recovers Pathway Signatures from Blood Metabolomics Data. J. Proteome Res. 2012, 11, 4120–4131. <a href="https://pubs.acs.org/doi/10.1021/pr300231n">Link</a>
+* Krumsiek, J.; Suhre, K.; Illig, T.; Adamski, J.; Theis, F.J. Bayesian Independent Component Analysis Recovers Pathway Signatures from Blood Metabolomics Data. J. Proteome Res. 2012, 11, 4120–4131. <a href="https://pubs.acs.org/doi/10.1021/pr300231n">Link</a>   
+
 
 ### Annotation tools   
    
@@ -107,7 +108,7 @@ genome-wide expression profiles. Proceedings of the National Academy of Sciences
 
 
 
-### Applications of ICA to other than gene expression omics data and multiomics
+### Applications of ICA to other layers than gene expression omics data and multiomics
 
 
 
