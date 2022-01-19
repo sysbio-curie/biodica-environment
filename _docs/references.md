@@ -77,16 +77,23 @@ and visualization. In Proceedings of the 2003 IEEE XIII Workshop on Neural Netwo
 * Krumsiek, J.; Suhre, K.; Illig, T.; Adamski, J.; Theis, F.J. Bayesian Independent Component Analysis Recovers Pathway Signatures from Blood Metabolomics Data. J. Proteome Res. 2012, 11, 4120–4131. <a href="https://pubs.acs.org/doi/10.1021/pr300231n">Link</a>
 
 ### Annotation tools   
+   
+
+* Bonnet, E., Viara, E., Kuperstein, I., Calzone, L., Cohen, D. P. A., Barillot, E., and Zinovyev, A. (2015). NaviCell Web Service for network-based data visualization. Nucleic Acids Research, 43(W1), W560–W565.   
+   
 
 * Chen, J., Bardes, E. E., Aronow, B. J., and Jegga, A. G. (2009). ToppGene Suite for gene list enrichment analysis and candidate gene prioritization. Nucleic Acids Research,37(suppl2), W305−−W311.
+   
 
 * Kairov, U., Karpenyuk, T., Ramanculov, E., and Zinovyev, A. (2012). Network analysis of gene lists for finding reproducible prognostic breast cancer gene signatures. Bioinformation, 8(16), 773–776. 23055628[pmid].
+   
 
 * Subramanian, A., Tamayo, P., Mootha, V. K., Mukherjee, S., Ebert, B. L., Gillette,
 M. A., Paulovich, A., Pomeroy, S. L., Golub, T. R., Lander, E. S., and Mesirov, J. P.
 (2005). Gene set enrichment analysis: A knowledge-based approach for interpreting
 genome-wide expression profiles. Proceedings of the National Academy of Sciences,
 102(43), 15545–15550.   
+   
 
 ### Applications to single cell data analysis
 
