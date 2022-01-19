@@ -24,7 +24,7 @@ BIODICA pipeline is composed of 8 main computational modules. They are all acces
   <center><img src="../../assets/img/run_ica_icon.png" width="60%"></center>
   </div>
   <div class="col-sm-8">
-  <p><b>Run stabilized ICA</b> - This module runs a stabilized version of Independent Component Analysis on a transcriptomic data set. The stability of the independent components is estimated through several runs of an ICA solver with random initializations. The results of the different runs are clustered and the centrotype compoents are considered to be the correct/stabilized ones.</p>
+  <p><b>Run stabilized ICA</b> - This module runs a stabilized version of Independent Component Analysis on a transcriptomic data set. The stability of the independent components is estimated through several runs of an ICA solver with random initializations. The results of the different runs are clustered and the centrotype components are considered to be the correct/stabilized ones.</p>
   </div>
 </div> 
 <br>
@@ -33,7 +33,7 @@ BIODICA pipeline is composed of 8 main computational modules. They are all acces
   <center><img src="../../assets/img/gsea_icon.png" width="45%"></center>
   </div>
   <div class="col-sm-8">
-  <p><b>GSEA analysis</b> - This module applies Gene Set Enrichment Analysis to each stabilized ICA component. As input it uses the natural ranking given by the projection of each component in the "gene space" (i.e for each independent component, each gene is associated with a weight which reflects its importance in the definition of the component; this set of weights naturally ranks gene for the given component).</p>
+  <p><b>GSEA analysis</b> - This module applies Gene Set Enrichment Analysis to each stabilized ICA component. As input it uses the natural ranking given by the projection of each component in the "gene space" (i.e for each independent component, each gene is associated with a weight which reflects its importance in the definition of the component; this set of weights naturally ranks the genes for the given component).</p>
   </div>
 </div> 
 <br>
@@ -51,7 +51,7 @@ BIODICA pipeline is composed of 8 main computational modules. They are all acces
   <center><img src="../../assets/img/often_icon.png" width="45%"></center>
   </div>
   <div class="col-sm-8">
-  <p><b>OFTEN analysis</b> - This module finds optimally functionnaly enriched subnetworks associated with the gene rankings provided by each stabilized ICA component. It uses PPI networks from the <b>knowledge/undirected</b> folder, and the methodology descirbed in <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3449386/">Kairov et al. 2O13</a>.</p>
+  <p><b>OFTEN analysis</b> - This module finds optimally functionnaly enriched subnetworks associated with the gene rankings provided by each stabilized ICA component. It uses PPI networks from the <b>knowledge/undirected</b> folder, and the methodology described in <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3449386/">Kairov et al. 2O13</a>.</p>
   </div>
 </div> 
 <br>
@@ -60,7 +60,7 @@ BIODICA pipeline is composed of 8 main computational modules. They are all acces
   <center><img src="../../assets/img/navicell_icon.png" width="50%"></center>
   </div>
   <div class="col-sm-8">
-  <p><b>Navicell visualization</b> - This module mapps the input transcriptomic data and/or the stabilized ICA components onto biological network maps, browsable with NaviCell tool. See <a href="https://navicell.vincent-noel.fr/">this link</a> for more details.</p>
+  <p><b>Navicell visualization</b> - This module maps the input transcriptomic data and/or the stabilized ICA components onto biological network maps, browsable with NaviCell tool. See <a href="https://navicell.vincent-noel.fr/">this link</a> for more details.</p>
   </div>
 </div> 
 <br>
@@ -87,7 +87,7 @@ BIODICA pipeline is composed of 8 main computational modules. They are all acces
   <center><img src="../../assets/img/rbh_icon.png" width="45%"></center>
   </div>
   <div class="col-sm-8">
-  <p><b>Meta-analysis with RBH graph</b> - This module allows comparing all components extracted from different data sets Constructing a Reciprocally Best Hit (RBH) graph, representing reciprocal correlation relations between components extracted from different data sets.</p>
+  <p><b>Meta-analysis with RBH graph</b> - This module allows comparing all components extracted from different data sets, constructing a Reciprocally Best Hit (RBH) graph which represents reciprocal correlation relations between components extracted from different data sets.</p>
   </div>
 </div> 
 
