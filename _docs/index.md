@@ -24,7 +24,7 @@ BIODICA pipeline is composed of 8 main computational modules. They are all acces
   <center><img src="../../assets/img/run_ica_icon.png" width="60%"></center>
   </div>
   <div class="col-sm-8">
-  <p><b>Run stabilized ICA</b> - This module runs a stabilized version of Independent Component Analysis on a transcriptomic data set. The stability of the independent components is estimated through several runs of an ICA solver with random initializations. The results of the different runs are clustered and the centrotype components are considered to be the correct/stabilized ones.</p>
+  <p><b>Run stabilized ICA</b> - This module runs a stabilized version of Independent Component Analysis on a transcriptomic data set. The stability of the independent components is estimated through several runs of an ICA solver with random initializations. The results of the different runs are clustered and the centrotype components are considered to be the correct ones (i.e the stabilized ones).</p>
   </div>
 </div> 
 <br>
@@ -33,7 +33,7 @@ BIODICA pipeline is composed of 8 main computational modules. They are all acces
   <center><img src="../../assets/img/gsea_icon.png" width="45%"></center>
   </div>
   <div class="col-sm-8">
-  <p><b>GSEA analysis</b> - This module applies Gene Set Enrichment Analysis to each stabilized ICA component. As input it uses the natural ranking given by the projection of each component in the "gene space" (i.e for each independent component, each gene is associated with a weight which reflects its importance in the definition of the component; this set of weights naturally ranks the genes for the given component).</p>
+  <p><b>GSEA analysis</b> - This module applies Gene Set Enrichment Analysis to each stabilized ICA component (Subramanian *et al.*, 2005). As input it uses the natural ranking given by the projection of each component in the "gene space" (i.e for each independent component, each gene is associated with a weight which reflects its importance in the definition of the component; this set of weights naturally ranks the genes for the given component).</p>
   </div>
 </div> 
 <br>
@@ -42,7 +42,7 @@ BIODICA pipeline is composed of 8 main computational modules. They are all acces
   <center><img src="../../assets/img/toppgene_icon.png" width="40%"></center>
   </div>
   <div class="col-sm-8">
-    <p><b>ToppGene analysis</b> - This module applies ToppGene functional enrichment analysis to each stabilized ICA component. As input it uses the "top contributing genes" of each component (i.e the genes associated with the highest weights in the gene space).</p>
+    <p><b>ToppGene analysis</b> - This module applies ToppGene functional enrichment analysis to each stabilized ICA component (Chen *et al.*, 2009). As input it uses the "top contributing genes" of each component (i.e the genes associated with the highest weights in the gene space). The user can either fix the number of most weighted genes he wants to select as "top contributing genes", or set a high-pass threshold on the weights.</p>
   </div>
 </div> 
 <br>
