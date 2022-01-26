@@ -31,11 +31,11 @@ The metagenes obtained on colorectal cancer (CRC) from PCA, NMF and StabilizedIC
 
 2. Among the different icons choose the **RBH Graph Construction**
 
-    <center><img src="../../../assets/img/tuto_rbh_1.png" style="width:500px;height:auto;" ></center>   
+    <center><img src="../../../assets/img/tuto_rbh_1.png" style="width:700px;height:auto;" ></center>   
 
 3. Considering that we are interested in constructing the RBH graph for PCA, browse to the folder [BIODICA/tree/master/data/INPUT_TUTORIAL_4](https://github.com/LabBandSB/BIODICA/tree/master/data/INPUT_TUTORIAL_4)
 
-    <center><img src="../../../assets/img/tuto_rbh_2.png" style="width:500px;height:auto;" ></center>
+    <center><img src="../../../assets/img/tuto_rbh_2.png" style="width:700px;height:auto;" ></center>
      
     **IMPORTANT!** to construct the RBH graph for metagenes externally constructed, make sure to save all the files in the format _S.xls 
 
@@ -47,7 +47,7 @@ The metagenes obtained on colorectal cancer (CRC) from PCA, NMF and StabilizedIC
 
    - ```RBHGraph.html``` to visualize and explore the obtained RBH graph
    
-    <center><img src="../../../assets/img/tuto_rbh_3.png" style="width:auto;height:500px;" ></center> 
+    <center><img src="../../../assets/img/tuto_rbh_3.png" style="width:auto;height:700px;" ></center> 
   
     **Figure.** Example of RBH network obtained in CRC over 14 trascriptomic dataset of CRC [Cantini et al. 2018](https://www.biorxiv.org/content/early/2018/05/09/318154)
 

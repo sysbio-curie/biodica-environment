@@ -9,14 +9,15 @@ permalink: /docs/tutorials/
     border: 2px solid #ccc;
     margin-bottom: 15px;
     border-radius: 25px;
+    min-height: 300px;
+    max-height: 300px;
   }
   div.gallery:hover {
     border: 2px solid #777;
   }
   div.gallery img {
     margin: 10px;
-    max-width: 100%;
-    min-height: 200px;
+    max-width: 95%;
     max-height: 200px;
   }
   div.desc {
@@ -41,6 +42,30 @@ permalink: /docs/tutorials/
 
 
 <div class="row">
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="image">
+        <a href="{{ "/docs/tutorials/tuto_sica/" | relative_url }}">
+        <img src="../../assets/img/run_ica_icon.png" class="img-responsive" alt="Cerulean"></a>
+      </div>
+      <div class="desc">
+        ICA decomposition using BIODICA Navigator
+      </div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <div class="image">
+        <a href="{{ "/docs/tutorials/tuto_toppgene/" | relative_url }}">
+        <img src="../../assets/img/toppgene_icon.png" class="img-responsive" alt="Cerulean"></a>
+      </div>
+      <div class="desc">
+        ToppGene enrichment analysis using BIODICA Navigator
+      </div>
+    </div>
+  </div>
 
   <div class="responsive">
     <div class="gallery">
