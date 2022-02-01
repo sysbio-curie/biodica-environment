@@ -29,7 +29,7 @@ The aim of this tutorial is to demonstrate how BIODICA can find associations bet
     <br>
     **Warning :** Ids of the samples in the sample annotation file should match exactly the sample names in the original omics data set. This is important to check in advance.
  
-3. Click on '**Run**'. The process will finish quickly. The web-browser tab will open. It will look like this :
+3. Click on '**Run**'. The analysis process will finish quickly. The web-browser tab will open. It may take some time since BIODICA has to process all the generated files into one html report. It will look like this :
 
    <center><img src="https://codimd.math.cnrs.fr/uploads/upload_0e6a62f566db33d8a750adf610eb67ba.png" style="width:700px;height:auto;" ></center> 
     <br>

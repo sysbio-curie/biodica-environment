@@ -35,7 +35,7 @@ The aim of this tutorial is to demonstrate how BIODICA can find associations bet
     <br>
     **Note :** We can load any previously defined metagenes. The folder should contain one .rnk file for each metagene. Each file should contain two columns, the first one with the gene names and the second one with the associated gene weights. See the BIODICA/knowledge/metagenes folder for more details.
 
-The MetaGene Annotation web-browser tab will look as follows :
+The MetaGene Annotation web-browser tab will open. It may take some time since BIODICA has to process all the generated files into one html report. It will look as follows :
 
 <center><img src="https://codimd.math.cnrs.fr/uploads/upload_02dae706eeefa791200b98fc1937ebdb.png" style="width:700px;height:auto;" ></center>
 <br>
