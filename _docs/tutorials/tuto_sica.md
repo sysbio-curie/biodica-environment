@@ -2,7 +2,7 @@
 layout: page
 title: ICA decomposition using BIODICA Navigator
 permalink: /docs/tutorials/tuto_sica/
-author: Altynbek Zhubanchaliyev
+author: Altynbek Zhubanchaliyev, Nicolas Captier
 ---
 
 <div class = "container">
@@ -61,7 +61,7 @@ In the **Parameters of ICA method** section you will see four options. The first
 
 2. Click on '**Run**'
 
-We obtain two matrices: matrix_**A** - containing 30 metasamples, and matrix_**S** - containing 30 metagenes. **Metagene** refers to a set of numerical weights (positive or negative) associated to each gene in the input dataset, it corresponds to the projection of the independent component in the gene space. **Metasample** refers to a set of numerical weights (positive or negative) associated to each sample in the input dataset. It corresponds to the projection of the independent component in the sample space. Both matrices are stored in the corresponding .xls files, in our (work/OVCA_ICA) directory.
+We obtain two matrices: matrix_**A** - containing 30 metasamples, and matrix_**S** - containing 30 metagenes. **Metagene** refers to a set of numerical weights (positive or negative) associated to each gene in the input dataset. They correspond to the projection of each gene on the associated independent component. **Metasample** refers to a set of numerical weights (positive or negative) associated to each sample in the input dataset. They correspond to the projection of each sample on the associated independent component. Both matrices are stored in the corresponding .xls files, in our (work/OVCA_ICA) directory.
 
 Alternatively, we can download them directly from html tab in web-browser, by clicking on each matrix file, as indicated below:
 
@@ -74,13 +74,13 @@ If the web-browser tab didn't open after you run the ICA, click on '**Open resul
 
 #### ICA with a range of different numbers of components
 
-1. Choose '**Scanning a range of components number**' and write the different numbers separated by comma (without spaces). For this tutorial we will use every even number from 4 to 100.Scanning range is needed for further estimation of the optimal number of components.
+1. Choose '**Scanning a range of components number**' and write the different numbers separated by comma (without spaces). For this tutorial we will use every even number from 4 to 100. Scanning range is needed for further estimation of the optimal number of components.
 
     <center><img src="https://codimd.math.cnrs.fr/uploads/upload_5343f2637efe9f741f417b7c54609cb2.png" style="width:700px;height:auto;" ></center>
 
 2. Click on '**Run**'. This will activate the process and you will get the message. 
 
-    <center><img src="https://codimd.math.cnrs.fr/uploads/upload_c31a2b973e9bf65f9304ad097e6d2437.png" style="width:700px;height:auto;" ></center>
+    <center><img src="https://codimd.math.cnrs.fr/uploads/upload_c31a2b973e9bf65f9304ad097e6d2437.png" style="width:400px;height:auto;" ></center>
 
 
 3. Click on '**OK**'. This creates result files in your 'work' directory and opens a tab in the web-browser with stability graph and umap figure of the components.
@@ -94,7 +94,7 @@ For instance 'Index stability, order = 52' indicates stability indices of each o
 
 ### Using pre-computed ICA decompositions
 
-BIODICA will store all the results of ICA computation for all of the numbers of IC's that you have performed for this dataset. You can easily access to them with the **Choose precomputed number of IC's** option or perform a meta-analysis to estimate a relevant order of decomposition with the **Estimate optimal number of IC's** option.
+BIODICA will store all the results of ICA computation for all of the numbers of IC's that you have performed for this dataset. You can easily access them with the **Choose precomputed number of IC's** option or perform a meta-analysis to estimate a relevant order of decomposition with the **Estimate optimal number of IC's** option.
 
 #### ICA with precomputed number of components
 
