@@ -82,7 +82,7 @@ The brighter a node is, the larger its weight in the metagene (i.e its contribut
 
 The graph looks slightly crowded, with CDK1 in the center. Additionally we can see genes as MYBL2, E2F1, CCNB1, AURKA and others, which are involved in the cell cycle, either directly controlling it or playing a crucial role in associated processes. In previous tutorials, using metagene annotation tools, we have identified, that genes from our IC5 component are associated with the process of cell cycle. Using OFTEN we can observe meaningful interactions among these genes. This network is interactive and the user can pull the nodes and zoom-in to take a closer look.
 
-### The score
+#### The score
 
 By clicking on the number in the column PLUS_SC for the IC5 we will find the following figure, representing the percolation score for the number of genes inside IC5.
 
@@ -90,3 +90,17 @@ By clicking on the number in the column PLUS_SC for the IC5 we will find the fol
 <br>
 
 **Note :** The networks are stored as .xgmml files and can be opened with appropriate softwares (e.g. Cytoscape). 
+
+#### Displaying different types of interactions with Cytoscape
+
+When you open the .xgmml file in Cytoscape, there is an option to highlight different types of PPI interactions. By changing the '**Line Type**' parameter in the '**Style**' window, which defines the appearance of edges, and assigning it to the 'interaction' column, we can display different types of PPI interactions.
+
+<center><img src="https://codimd.math.cnrs.fr/uploads/upload_9493e1ef060e0b0f859542c3fbf32296.png" style="width:700px;height:auto;" ></center>
+<br>
+
+For instance, 'in_vitro;in_vivo;yeast_2-hybrid' corresponds to high-confidence interactions since the proteins of interest were found to interact in vivo, in vitro and in yeast two-hybrid molecular screenings. On the contrary, 'yeast_2-hybrid' corresponds to low-confidence interations. Highlighting these different types of interactions may be important to thoroughly analyse the OFTEN network.
+
+This is how our IC5_plus OFTEN network with modified representation of edges looks like. We chose to represent 'in_vitro;in_vivo;yeast_2-hybrid' interactions with vertical slashes, 'yeast_2-hybrid' interactions with sine waves, and 'in_vitro;in_vivo' interactions with solide lines. 
+
+<center><img src="https://codimd.math.cnrs.fr/uploads/upload_d9dd1d7ca813a82ce58c1f53d907b482.png" style="width:1000px;height:auto;" ></center>
+<br>
