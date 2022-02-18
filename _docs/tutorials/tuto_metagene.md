@@ -65,7 +65,7 @@ We can see that 'protein_coding' and 'snoRNA' categories have the biggest differ
 
 For a numerical gene annotation, its association with a metagene is computed by the Spearman correlation coefficient.   
 
-In this tutorial, GC-content is the only numerical gene annotation we have. IC27 has the highest correlation to GC-content, and it equals 0.19.
+In this tutorial, GC-content is the only numerical gene annotation we have. IC26 has the highest correlation to GC-content, and it equals 0.19.
 
 <center><img src="https://codimd.math.cnrs.fr/uploads/upload_ebf1a4815ce63eb62c2c1561565d6758.png" style="width:1100px;height:auto;" ></center>
 <br>

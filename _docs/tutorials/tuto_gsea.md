@@ -39,7 +39,7 @@ The aim of this tutorial is to show how to perform Gene Set Enrichment Analysis 
 
 Given a pre-defined set of genes (e.g. genes participating in one metabolic pathway, or sharing the same gene ontology), we aim to find out if the members of the set are upregulated in our study, down-regulated, or randomly distributed thus obtaining no significant enrichment. 
 
-The following screenshot shows what GSEA results table looks like. All the results are saved in (BIODICA/work/OVCA_GSEA) directory. The results are filtered for those enrichments which have at least k top contributing genes in the leading edge set and which p-value, corrected for multiple testing, is less than the 'adjusted p-value threshold' (in our tutorial k=5 and p_value threshold = 0.01).
+The following screenshot shows how GSEA results table looks like. All the results are saved in (BIODICA/work/OVCA_GSEA) directory. The results are filtered for those enrichments which have at least k top contributing genes in the leading edge set and which p-value, corrected for multiple testing, is less than the 'adjusted p-value threshold' (in our tutorial k=5 and p_value threshold = 0.01).
 
 <center><img src="https://codimd.math.cnrs.fr/uploads/upload_a233e9d447de3b27dbea4977824535a2.png" style="width:1150px;height:auto;" ></center>
 
@@ -62,6 +62,6 @@ Let's have a look at IC5, which we studied in <a href="{{ "/docs/tutorials/tuto_
 
 Here, the enrichment plot provides a graphical view of the enrichment score for the 'HALLMARK_G2M_CHECKPOINT' gene set. It shows that a significant number of genes involved in the G2/M checkpoint corresponds to top-ranked genes of the metagene IC5.
 
-Besides, the GSEA details table shows each gene of the gene set, its rank in the IC5 metagene, its associated enrichment score, and whether it belongs to the core enrichment (i.e members of the gene set that appear in the ranked list prior to the peak score (postivie enrichment) or subsequent to the peak score (negative enrichment)).
+Besides, the GSEA details table shows each gene of the gene set, its rank in the IC5 metagene, its associated enrichment score, and whether it belongs to the core enrichment (i.e members of the gene set that appear in the ranked list prior to the peak score (positive enrichment) or subsequent to the peak score (negative enrichment)).
 
 **Note:** For more detailed information about metrics and how GSEA is performed you can visit the official [User Guide](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideFrame.html).
