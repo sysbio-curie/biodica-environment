@@ -13,10 +13,10 @@ java -jar BIODICA_GUI.jar
 
 <center><img src="../../assets/img/welcome_1.png" width="75%"></center>
 
-You can also open BIODICA Navigator by cliking on the corresponding *BIODICA_GUI.jar* file in your root folder of BIODICA.
+You can also open BIODICA Navigator by clicking on the corresponding *BIODICA_GUI.jar* file in your root folder of BIODICA.
 
 ### BIODICA modules
-BIODICA pipeline is composed of 8 main computational modules. They are all accessible with BIODICA Navigator by cliking on the following icons:   
+BIODICA pipeline is composed of 8 main computational modules. They are all accessible with BIODICA Navigator by clicking on the following icons:   
 
 
 <div class="row">
