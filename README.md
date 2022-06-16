@@ -1,5 +1,16 @@
 # Welcome to BIODICA website
 
+This GitHub repository contains the source code for the BIODICA website. BIODICA is an integrated computational environment for application of Independent Component Analysis (ICA) to the bulk and single cell molecular profiles, interpretation of the results in terms of biological functions and associations with metadata.   
+
+The BIODICA website is accessible at this URL <https://sysbio-curie.github.io/biodica-environment/>.
+
+If you use BIODICA in a scientific publication, we would appreciate citation to the [following paper](https://doi.org/10.1093/bioinformatics/btac204):
+
+	Nicolas Captier, Jane Merlevede, Askhat Molkenov, Ainur Seisenova, Altynbek Zhubanchaliyev, Petr V Nazarov, Emmanuel Barillot, Ulykbek Kairov, Andrei Zinovyev, BIODICA: a computational environment for Independent Component Analysis of omics data, Bioinformatics, Volume 38, Issue 10, 15 May 2022, Pages 2963–2964, https://doi.org/10.1093/bioinformatics/btac204
+
+
+## How to update BIODICA website
+
 The BIODICA website has been created with <a href="https://jekyllrb.com/" >Jekyll</a>. For new users, we recommend <a href="https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB" >these basic tutorials</a> 
 to install and get started with Jekyll.   
 
